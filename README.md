@@ -1,4 +1,4 @@
-# Rlottie Vue Player
+# Rlottie WASM Vue Player
 
 A Vue 3 component for the rlottie-wasm animation player. This package allows you to play Lottie animations in your Vue applications using the rlottie WebAssembly module.
 
