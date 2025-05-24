@@ -17,7 +17,7 @@ With this package, you can enjoy a seamless and efficient experience when workin
 ## Installation
 
 ```bash
-npm install rlottie-vue-player
+npm install rlottie-wasm-vue-player
 ```
 
 ## Setup
@@ -27,9 +27,9 @@ npm install rlottie-vue-player
 Install the package using npm or yarn:
 
 ```bash
-npm install rlottie-vue-player
+npm install rlottie-wasm-vue-player
 # or
-yarn add rlottie-vue-player
+yarn add rlottie-wasm-vue-player
 ```
 
 That's it! No need to manually copy any files. All required WASM and JS assets are automatically included in the package.
@@ -46,7 +46,7 @@ No additional script loading is required. All necessary WASM and JS files are au
 // main.js
 import { createApp } from 'vue';
 import App from './App.vue';
-import RlottieVuePlayer from 'rlottie-vue-player';
+import RlottieVuePlayer from 'rlottie-wasm-vue-player';
 
 const app = createApp(App);
 
@@ -63,7 +63,7 @@ app.mount('#app');
 
 ```js
 // YourComponent.vue
-import { RlottiePlayer } from 'rlottie-vue-player';
+import { RlottiePlayer } from 'rlottie-wasm-vue-player';
 
 export default {
   components: {
@@ -104,7 +104,7 @@ export default {
 
 <script setup>
 import { ref } from 'vue';
-import { RlottiePlayer } from 'rlottie-vue-player';
+import { RlottiePlayer } from 'rlottie-wasm-vue-player';
 
 const player = ref(null);
 const animationSource = ref('/sample.json');

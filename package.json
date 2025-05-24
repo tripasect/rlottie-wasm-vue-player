@@ -1,8 +1,8 @@
 {
-  "name": "rlottie-vue-player",
-  "version": "1.0.0",
+  "name": "rlottie-wasm-vue-player",
+  "version": "1.0.1",
   "description": "A Vue 3 component for the rlottie-wasm animation player",
-  "author": "Rlottie Vue Player Team",
+  "author": "Tripasect",
   "license": "MIT",
   "main": "dist/rlottie-vue-player.umd.js",
   "module": "dist/rlottie-vue-player.es.js",
@@ -36,7 +36,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/rlottie-vue-player/rlottie-vue-player"
+    "url": "https://github.com/tripasect/rlottie-vue-player"
   },
-  "homepage": "https://github.com/rlottie-vue-player/rlottie-vue-player"
+  "homepage": "https://github.com/tripasect/rlottie-vue-player"
 }
