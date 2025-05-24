@@ -1,0 +1,42 @@
+{
+  "name": "rlottie-vue-player",
+  "version": "1.0.0",
+  "description": "A Vue 3 component for the rlottie-wasm animation player",
+  "author": "Rlottie Vue Player Team",
+  "license": "MIT",
+  "main": "dist/rlottie-vue-player.umd.js",
+  "module": "dist/rlottie-vue-player.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/rlottie-vue-player.es.js",
+      "require": "./dist/rlottie-vue-player.umd.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "vite build",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "vue": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "vite": "^6.2.4"
+  },
+  "keywords": [
+    "vue",
+    "lottie",
+    "animation",
+    "rlottie",
+    "wasm",
+    "webassembly"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rlottie-vue-player/rlottie-vue-player"
+  },
+  "homepage": "https://github.com/rlottie-vue-player/rlottie-vue-player"
+}
